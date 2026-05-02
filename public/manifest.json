@@ -1,1 +1,10 @@
+{
+  "short_name": "Jai Sarvalaya",
+  "name": "Jai Sarvalaya Agency",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a0c00",
+  "background_color": "#1a0c00"
+}
 
