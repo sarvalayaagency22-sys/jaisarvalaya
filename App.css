@@ -1,1 +1,56 @@
+:root {
+  --gold: #c9922a;
+  --gold-light: #f0c060;
+  --gold-pale: #ffe9a0;
+  --dark: #1a0c00;
+  --cream: #fff8e8;
+  --text: #f5dfa0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: var(--dark);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--text);
+}
+
+.agency-title {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 6px;
+  background: linear-gradient(135deg, var(--gold), var(--gold-pale), var(--gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.agency-sub {
+  font-size: 1.2rem;
+  letter-spacing: 8px;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.agency-tagline {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--gold-pale);
+  margin-bottom: 32px;
+}
+
+.status-text {
+  font-size: 0.85rem;
+  color: rgba(240, 192, 96, 0.5);
+  border: 1px solid rgba(201, 146, 42, 0.2);
+  padding: 8px 20px;
+}
 
